@@ -3,63 +3,63 @@ __________________________________________________________
 	TASK 1
 __________________________________________________________
 
-�����@-------- MINGW64 /e/VCS
+Назар@-------- MINGW64 /e/VCS
 $ git clone https://github.com/hotnazar/vcs-homework
 Cloning into 'vcs-homework'...
 warning: You appear to have cloned an empty repository.
 
-�����@-------- MINGW64 /e/VCS
+Назар@-------- MINGW64 /e/VCS
 $ cd vcs-homework
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git checkout -b architecture
 Switched to a new branch 'architecture'
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ mkdir assets
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ $mkdir uploads
 bash: uploads: command not found
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ mkdir uploads
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ touch index.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ cd assets
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git add index.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git commit -m "commited"
 [architecture (root-commit) 35f761f] commited
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 index.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ cd assets
 
-�����@-------- MINGW64 /e/VCS/vcs-homework/assets (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework/assets (architecture)
 $ touch all.js css.js
 
-�����@-------- MINGW64 /e/VCS/vcs-homework/assets (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework/assets (architecture)
 $ git add all.js css.js
 
-�����@-------- MINGW64 /e/VCS/vcs-homework/assets (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework/assets (architecture)
 $ cd /e/VCS/vcs-homework
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git commit -a -m 'commited'
 [architecture 902cc41] commited
  2 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 assets/all.js
  create mode 100644 assets/css.js
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git push --set-upstream origin architecture
 Counting objects: 6, done.
 Delta compression using up to 8 threads.
@@ -70,28 +70,28 @@ To https://github.com/hotnazar/vcs-homework
  * [new branch]      architecture -> architecture
 Branch 'architecture' set up to track remote branch 'architecture' from 'origin'.
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ echo "uploads/*" > .gitignore
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git add .gitignore
 warning: LF will be replaced by CRLF in .gitignore.
 The file will have its original line endings in your working directory.
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git commit -m "commit"
 [architecture bbddf97] commit
  1 file changed, 1 insertion(+)
  create mode 100644 .gitignore
 
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (architecture)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (architecture)
 $ git checkout master
 Switched to branch 'master'
 Your branch is based on 'origin/master', but the upstream is gone.
   (use "git branch --unset-upstream" to fixup)
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git branch -D architecture
 Deleted branch architecture (was bbddf97).
  
@@ -102,34 +102,34 @@ _____________________________________________________________________
 
 
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git checkout -b rebase
 Switched to a new branch 'rebase'
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (rebase)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (rebase)
 $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ touch index.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git add index.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ touch style.css
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git add style.css
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git commit -m "commited"
 [master 8a3a58d] commited
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 style.css
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git push
 Counting objects: 2, done.
 Delta compression using up to 8 threads.
@@ -140,33 +140,33 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/hotnazar/vcs-homework
    bbddf97..8a3a58d  master -> master
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git checkout rebase
 Switched to branch 'rebase'
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (rebase)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (rebase)
 $ git rebase master
 First, rewinding head to replay your work on top of it...
 Fast-forwarded rebase to master.
  
-�����@-------- MINGW64 /e/VCS/vcs-homework (rebase)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (rebase)
 $ touch index2.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (rebase)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (rebase)
 $ git add index2.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (rebase)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (rebase)
 $ git commit -m "commited"
 [rebase 83a2a2c] commited
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 index2.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (rebase)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (rebase)
 $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git merge rebase
 Updating 8a3a58d..83a2a2c
 Fast-forward
@@ -174,11 +174,11 @@ Fast-forward
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 index2.html
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git branch -D rebase
 Deleted branch rebase (was 83a2a2c).
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git push
 Counting objects: 2, done.
 Delta compression using up to 8 threads.
@@ -195,22 +195,22 @@ __________________________________________________
 __________________________________________________
 
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ touch VCS.txt
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git add VCS.txt
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git commit -a -m "commited"
 [master 90ded86] commited
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 VCS.txt
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git tag v1
 
-�����@-------- MINGW64 /e/VCS/vcs-homework (master)
+Назар@-------- MINGW64 /e/VCS/vcs-homework (master)
 $ git push origin v1
 Counting objects: 2, done.
 Delta compression using up to 8 threads.
@@ -220,6 +220,200 @@ Total 2 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/hotnazar/vcs-homework
  * [new tag]         v1 -> v1
+
+
+_____________________________________________________
+
+SUBMODULE
+
+_____________________________________________________
+
+
+Назар@-------- MINGW64 /e/VCS
+$ git clone https://github.com/hotnazar/vcs-test.git
+Cloning into 'vcs-test'...
+warning: You appear to have cloned an empty repository.
+
+Назар@-------- MINGW64 /e/VCS
+$ cd vcs-test
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ touch index.html
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ git add index.html
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ git commit -a -m "index created"
+[master (root-commit) d0659ee] index created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ mkdir homework
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ cd homework
+
+Назар@-------- MINGW64 /e/VCS/vcs-test/homework (master)
+$ git submodule add https://github.com/hotnazar/vcs-test
+Cloning into 'E:/VCS/vcs-test/homework/vcs-test'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+warning: LF will be replaced by CRLF in .gitmodules.
+The file will have its original line endings in your working directory.
+
+Назар@-------- MINGW64 /e/VCS/vcs-test/homework (master)
+$ git commit -a -m "Load submodele to git"
+[master 9556fae] Load submodele to git
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitmodules
+ create mode 160000 homework/vcs-test
+
+Назар@-------- MINGW64 /e/VCS/vcs-test/homework (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 439 bytes | 439.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/hotnazar/vcs-test.git
+   d0659ee..9556fae  master -> master
+
+_______________________________________________________
+
+GIT PAGES
+
+_______________________________________________________
+
+Назар@-------- MINGW64 /e/VCS/vcs-test/homework (master)
+$ cd /e/VCS/vcs-test
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ git checkout -b gh-pages
+Switched to a new branch 'gh-pages'
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (gh-pages)
+$ echo "Git pages Advanced" > index.html
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (gh-pages)
+$ git commit -a -m "Created filled index"
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+[gh-pages 8bcf054] Created filled index
+ 1 file changed, 1 insertion(+)
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (gh-pages)
+$ git push --set-upstream origin gh-pages
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hotnazar/vcs-test.git
+ * [new branch]      gh-pages -> gh-pages
+Branch 'gh-pages' set up to track remote branch 'gh-pages' from 'origin'.
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (gh-pages)
+$ git push
+Everything up-to-date
+
+_______________________________________________________
+
+CONFLICT
+
+_______________________________________________________
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (gh-pages)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ echo "Nothing is imposible" > file.txt
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ git add file.txt
+warning: LF will be replaced by CRLF in file.txt.
+The file will have its original line endings in your working directory.
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ git commit -a -m "content in file.txt on branch master"
+[master 2893950] content in file.txt on branch master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file.txt
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (master)
+$ git checkout -b branch
+Switched to a new branch 'branch'
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch)
+$ git add file.txt
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch)
+$ git commit -a -m "change file.txt"
+[branch 52d132c] change file.txt
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+ rewrite file.txt (100%)
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch)
+$ git push --set-upstream origin branch
+Counting objects: 15, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 1.51 KiB | 775.00 KiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/hotnazar/vcs-test.git
+ * [new branch]      branch -> branch
+Branch 'branch' set up to track remote branch 'branch' from 'origin'.
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch)
+$ git commit -a -m "change file.txt"
+[branch 74da2fa] change file.txt
+ 1 file changed, 1 insertion(+)
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch)
+$ git merge master
+Auto-merging file.txt
+CONFLICT (content): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch|MERGING)
+$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecme  rge p4merge araxis bc codecompare emerge vimdiff
+Merging:
+file.txt
+
+Normal merge conflict for 'file.txt':
+  {local}: modified file
+  {remote}: modified file
+Hit return to start merge resolution tool (vimdiff):
+Файлов для редактирования: 4
+4
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch|MERGING)
+$ git commit -a -m "resolve conflict"
+[branch 6716057] resolve conflict
+
+Назар@-------- MINGW64 /e/VCS/vcs-test (branch)
+$ git push
+Counting objects: 12, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 1.10 KiB | 1.10 MiB/s, done.
+Total 12 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 2 local objects.
+To https://github.com/hotnazar/vcs-test.git
+   52d132c..6716057  branch -> branch
+
+
 
 
 
